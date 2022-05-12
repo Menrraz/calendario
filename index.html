@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendário</title>
+</head>
+<body>
+    <main> 
+        <section id='calanderSection'>
+            <picture">
+                <img id='monthImage' class='monthPic' src="" alt="foto de abril">
+                <p id="currentYear">Year</p>
+            </picture>
+            
+            <div class="month">
+                <span class="previous previousNextButton" id="previous">&lt</span>
+                <h1 id='monthName'>Calendário</h1>
+                <span class="next previousNextButton" id="next">&gt;</span>
+            </div>
+            <table id='calander'>
+                <tr id="weekText">
+                    <th class="weekName">DOM</th>
+                    <th class="weekName">SEG</th>
+                    <th class="weekName">TER</th>
+                    <th class="weekName">QUA</th>
+                    <th class="weekName">QUI</th>
+                    <th class="weekName">SEX</th>
+                    <th class="weekName">SAB</th>
+                </tr>
+            </table>
+            <form action=""> 
+                <p><input type="checkbox" name="cbHoliday" id="cbHoliday">Esconder Eventos</p>
+            </form>
+            <p class='source'>Todas as informações são do site wikipedia.org e calendarr.com/</p>
+        </section>
+    </main>
+    <footer>
+        <p>Esse site foi feito por um estudante de programação. <a href="">Perfil no Github</a>.</p>
+    </footer>
+    <script type="module" src="script.js"></script>
+    
+</body>
+</html>
