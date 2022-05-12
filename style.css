@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background: #FFE5C4;
+    background: -webkit-linear-gradient(top right, #FFE5C4, #fdc98a);
+    background: -moz-linear-gradient(top right, #FFE5C4, #fdc98a);
+    background: linear-gradient(to bottom left, #FFE5C4, #fdc98a);
+    height: 100%;
+}
+#calanderSection {
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: rgb(133 102 66) 1px 1px 11px 2px;
+}
+#calander {
+    padding-bottom: 15px;
+}
+#currentYear {
+    font-size: 14px;
+    margin-top: 1px;
+    text-align: center;
+    color: rgb(182, 182, 182);
+}
+.monthPic {
+    width: 272px;
+    height: 180px
+}
+.month {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.previousNextButton {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(182, 182, 182);
+    cursor: pointer;
+    width: 30px; /*to make it more 'clickable'*/
+    text-align: center;
+    position: absolute;
+}
+.previous {
+    margin-right: 230px;
+}
+.next {
+    margin-left: 230px;
+}
+#monthName {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 5px 0 8px 0;
+}
+#weekText {
+    color: rgb(201, 201, 201);
+    font-size: 12px;
+    font-family: 'Faleway', sans-serif;
+    margin-bottom: 10px;
+}
+.weekName {
+    font-weight: 600;
+}
+.day {
+    padding: 9px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.day:hover {
+    font-weight: 800;
+    cursor: pointer;
+}
+.today {
+    font-weight: bold;
+    background-color: bisque;
+    border-radius: 50%;
+}
+.today:hover {
+    font-weight: 500;
+}
+.gray {
+    color: rgb(161, 161, 161);
+}
+.event {
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    position: absolute;
+    right: 16px;
+}
+.commemorative {
+    background-color: rgb(65, 65, 65);;
+}
+.historical {
+    background-color: rgb(38, 125, 255);
+}
+.holiday {
+    background-color: red;
+}
+#eventDetails {
+    background-color: white;
+    box-shadow: rgb(133 102 66) 1px 1px 11px 2px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    width: 272px;
+}
+.eventTitle {
+    font-size: 17px;
+    padding: 9px 10px 5px 10px;
+    border-bottom: 1px solid #bb670261;
+}
+.eventDescription {
+    font-size: 16px;
+    padding: 9px 10px 9px 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+.source {
+    color: rgb(104, 104, 104);
+    font-size: 11px;
+    padding: 10px 10px 10px 10px;
+    width: 272px;
+}
+form {
+    display: flex;
+    align-items: center;
+}
+form input {
+    margin-right: 5px;
+}
+form p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 8px;
+}
+footer {
+    display: flex;
+    bottom: 0px;
+    margin: 40px 0px 27px 0px;
+    font-size: 13px;
+    color: #462700e0;
+    text-align: center;
+    width: 272px;
+}
