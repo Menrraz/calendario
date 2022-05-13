@@ -19,7 +19,7 @@ body {
     background: -webkit-linear-gradient(top right, #FFE5C4, #fdc98a);
     background: -moz-linear-gradient(top right, #FFE5C4, #fdc98a);
     background: linear-gradient(to bottom left, #FFE5C4, #fdc98a);
-    height: 100%;
+    height: 100vh;
 }
 #calanderSection {
     background-color: white;
