@@ -21,6 +21,7 @@ body {
     background: linear-gradient(to bottom left, #FFE5C4, #fdc98a);
     height: 100vh;
 }
+/*[680, 1480]*/
 #calanderSection {
     background-color: white;
     margin-top: 100px;
