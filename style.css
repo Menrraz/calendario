@@ -21,7 +21,14 @@ body {
     background: linear-gradient(to bottom left, #FFE5C4, #fdc98a);
     height: 100vh;
 }
-/*[680, 1480]*/
+.perfil {
+    display: block;
+    margin: 15px 0px 0px 0px;
+    font-size: 13px;
+    color: #462700e0;
+    text-align: center;
+    width: 273px;
+}
 #calanderSection {
     background-color: white;
     margin-top: 100px;
@@ -119,9 +126,10 @@ body {
 #eventDetails {
     background-color: white;
     box-shadow: rgb(133 102 66) 1px 1px 11px 2px;
-    margin-top: 3px;
+    margin-top: 135px;
     margin-bottom: 10px;
     width: 272px;
+    transform: scale(1.3);
 }
 .eventTitle {
     font-size: 17px;
@@ -153,14 +161,4 @@ form p {
     align-items: center;
     font-size: 14px;
     margin-left: 8px;
-}
-footer {
-    display: flex;
-    bottom: 0px;
-    position: absolute;
-    margin: 40px 0px 27px 0px;
-    font-size: 13px;
-    color: #462700e0;
-    text-align: center;
-    width: 272px;
 }
