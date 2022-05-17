@@ -33,7 +33,7 @@ body {
     background-color: white;
     margin-top: 75px;
     box-shadow: rgb(133 102 66) 1px 1px 11px 2px;
-    transform: scale(1.2);
+    transform: scale(1.25);
 }
 #calander {
     padding-bottom: 15px;
@@ -126,9 +126,9 @@ body {
 #eventDetails {
     background-color: white;
     box-shadow: rgb(133 102 66) 1px 1px 11px 2px;
-    margin-top: 75px;
+    margin-top: 90px;
     margin-bottom: 10px;
-    width: 328px;
+    width: 340px;
 }
 .eventTitle {
     font-size: 22px;
