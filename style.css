@@ -15,10 +15,10 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    background: #FFE5C4;
-    background: -webkit-linear-gradient(top right, #FFE5C4, #fdc98a);
-    background: -moz-linear-gradient(top right, #FFE5C4, #fdc98a);
-    background: linear-gradient(to bottom left, #FFE5C4, #fdc98a);
+    /*background: #FFE5C4;*/
+    /*background: -webkit-linear-gradient(top right, #FFE5C4, #fdc98a);*/
+    /*background: -moz-linear-gradient(top right, #FFE5C4, #fdc98a);*/
+    background: #f7cd9a;
     height: 100vh;
 }
 .perfil {
