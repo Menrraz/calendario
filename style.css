@@ -25,13 +25,13 @@ body {
     display: block;
     margin: 15px 0px 0px 0px;
     font-size: 13px;
-    color: yellow;
+    color: #462700e0;
     text-align: center;
     width: 273px;
 }
 #calanderSection {
     background-color: white;
-    margin-top: 100px;
+    margin-top: 75px;
     box-shadow: rgb(133 102 66) 1px 1px 11px 2px;
     transform: scale(1.2);
 }
