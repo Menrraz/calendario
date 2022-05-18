@@ -1,6 +1,5 @@
 import {displayEvents, events} from './events.js'
 window.dayClicked = dayClicked
-//let currentMonth = new Date().getMonth();
 const mainHTML = document.querySelector('main')
 let month = new Date().getMonth();
 let year = new Date().getFullYear()
