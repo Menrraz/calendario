@@ -109,7 +109,7 @@ function nextMonth() {
     month++
     displayCalander(firstDay, getMonthDays(month-1), getMonthDays(month), 'First Call')
     monthName.innerHTML = getMonthName(month)
-    if (month >= 11) {
+    if (month > 11) {
         month = month-12
         year++
         currentYear.innerHTML = year
@@ -127,7 +127,7 @@ function previousMonth() {
     month--
     displayCalander(firstDay, getMonthDays(month-1), getMonthDays(month), 'First Call')
     monthName.innerHTML = getMonthName(month)
-    if (month <= 0) {
+    if (month < 0) {
         month = month+12
         year--
         currentYear.innerHTML = year
