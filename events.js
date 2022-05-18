@@ -10,7 +10,6 @@ function displayEvents(displayEventsCall) {
         }
     }
 }
-// Feriados para calcular: Páscoa, Corpus Christi, Dia dos Pais
 const events = [
     {
         day: '1/0',
